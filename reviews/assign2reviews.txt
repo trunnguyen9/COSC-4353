@@ -1,0 +1,83 @@
+[Venkat 07/09/15 07:32 AM CDT]
+review: nice progress
+
+Proceed to the next step.
+
+------------------------------------------------------------------------------
+[Venkat 07/08/15 07:43 AM PDT]
+review: revisit the return type
+
+Check the return type to ensure it gives us all the data we'd need.
+
+After fixing that, move on to the next step.
+
+------------------------------------------------------------------------------
+[Venkat 07/07/15 04:09 AM PDT]
+review: revisit the design
+
+See suggestions. The interface needs only one method.
+
+------------------------------------------------------------------------------
+[Venkat 07/06/15 06:13 AM PDT]
+review: null is a smell
+
+Avoid returning null. See suggestion in code.
+
+------------------------------------------------------------------------------
+[Venkat 07/05/15 09:47 AM PDT]
+review: Address and remove all my notes
+
+Address and remove all my suggestions before asking for the next review.
+Search for "Venkat:" to look for all my notes.
+
+Design so the receiver clearly knows if the result is an error or a valid result.
+
+------------------------------------------------------------------------------
+[Venkat 07/04/15 22:18 PM PDT]
+review: let's revisit the next step.
+
+Make sure the build passes and all tests pass each time you check in code.
+
+Address and remove all my suggestions before asking for the next review.
+
+Let's revisit the next step.
+
+------------------------------------------------------------------------------
+[Venkat 07/04/15 06:10 AM PDT]
+review: refactor and move forward
+
+Move forward to the next steps.
+
+------------------------------------------------------------------------------
+[Venkat 07/03/15 07:33 AM PDT]
+review: nice tests, move forward
+
+Run gradle, notice warnings being reported. Fix warning.
+
+Nice tests, good job.
+
+------------------------------------------------------------------------------
+[Venkat 07/02/15 04:13 AM PDT]
+review: let's revisit
+
+Start with test of core logic, push state and dependencies as far away as possible.
+We don't want to create classes and load them with details at this time, we can
+keep it minimal. See suggestions in code.
+
+------------------------------------------------------------------------------
+[Venkat 06/30/15 04:41 AM PDT]
+review: write positive and negative tests
+
+Include coverage report in the build, see assign1.
+
+Start test on a method, stay with it, think of negative tests for it.
+
+Reduce code.
+
+------------------------------------------------------------------------------
+[Venkat 06/29/15 05:42 AM PDT]
+review: focus on core behavior first.
+
+Start to work with data assuming it's on our hand.
+
+------------------------------------------------------------------------------

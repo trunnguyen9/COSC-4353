@@ -1,0 +1,48 @@
+Files you check in outside of specific homework or assignment directory will not be reviewed or graded for that homework/assignment.
+
+Check in and modify files as many times as you like. You will not be able to modify the files after the deadline.
+
+You will work as a pair, both of you are responsible for the completed work in all assignments and homework. Each of you are expected to put in your reasonable share of effort into it.
+
+The deadlines are strict, there will be no extensions. Don't email any code to Venkat.
+Your last check in before the deadline will be graded. So, if you break the code (in assignments) before the deadline, you will lose.
+
+Please feel free to ask for frequent reviews (see the reviews/readme.txt file for details on how to ask for reviews).
+
+You can evolve the answers and solutions based on the reviews to your pair and to 
+other pairs in the course. Only the latest checkin at the time of review will be 
+looked at. Also the final check in will be the only one graded.
+
+Please read the academic honesty policy posted on the course mailing list.
+
+Now to homework #1.
+
+------------------------------------------------------------------------------
+HW1: Due 11:59PM June 10
+
+Please refer to Martin Fowler's article "Who Needs an Architect?" at 
+<http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf>
+
+1. According to the article, what's architecture?
+
+According to Ralph Johnson, the architecture should be a shared understanding of the system design, which includes how the system is divided into components and how the components interact through interfaces. And the architecture only includes the components and interfaces that are understood by all the developers. 
+
+Beside the definition above, another definition of the architecture that Ralph Johnson also mentioned is “the decisions that you wish you could get right early in a project”. One of the reasons we would like to make right decisions early is that they are perceived as hard to change. 
+
+In conclusion, Ralph Johnson claimed that architecture is about the important stuff. It is hard to tell people how to describe their architecture. For some developers, some components might be considered critical. For others, the same components might be considered trivial.
+
+2. According to the article, what's the role of an architect?
+
+The main role of an architect is to help the other members involved in the project to have better understanding of the important aspects of the system. Then the members can make the decision themselves.
+
+Another role of an architect is to keep an eye for critical issues, looking ahead.  The architect must be very aware of what’s currently going on the project. He needs to foresee important issues, and address them before they become a serious problem. The architect is also to mentor the development team, to improving their ability, so they can take on more complex issues. 
+
+In our opinion, the first role might be more effective because it allows the developers more flexibility to do their work. With more flexibility, the developers will be more creative and productive. 
+
+3. In your experience and/or observation, how does an architect in organizations differ from the one described in the article?
+
+In our experience, an architect in organizations mostly makes high-level decisions. The architect usually creates general guidelines or blueprint for the system development. The other members will then do their works according the guidelines provided by the architect. For example, an architect might design a system with three major components such as input, process, and output. The architect might dictate how these components communicate. However the low-level design will be left to the developers.  
+
+In conclusion, the role of an architect in organizations as we have been observing tends to follow Architectus Reloadus model. 
+
+Total [10]: 10

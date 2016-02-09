@@ -1,0 +1,77 @@
+[Venkat 06/14/15 15:26 PM CEST]
+review: You're done (after that one change)
+
+1.
+Don't show 1 as that is the default.
+
+2.
+good
+
+------------------------------------------------------------------------------
+[Venkat 06/13/15 07:29 AM MDT]
+review: Save in format suggested
+
+1.
+Save diagrams in one of the formats listed so I can open and read them
+for review.
+
+2.
+How are the cell states being represented, show that in the diagram (which
+I am not able to view at this time) and discuss here.
+
+------------------------------------------------------------------------------
+[Venkat 06/12/15 06:04 AM MDT]
+review: Set clear separation of concerns
+
+1.
+Show where the GUI related responsibilities are and also where user
+input will be taken. This will help to see a clear separation of
+where logic is handled and separate from where GUI and user interactions
+are handled. Right now, it is not clear if there is such a good
+separation.
+
+2.
+"The GameBoard class also will display the gameboard when GameOfLife class asked to do so." This was the concern I raised in 1, it appears that logic is mixed with GUI at this point. Clarify.
+
+------------------------------------------------------------------------------
+[Venkat 06/11/15 07:31 AM MDT]
+review: Good start, clarify a bit in some areas
+
+1. 
+Activity diagram: Good high level detail. How is this different from a 
+flow chart? If it is flow chart, should we call it that instead of
+activity diagram?
+
+class diagram: Program seems an odd name for a class, too general to mean
+much or be relevant.
+
+GameOfLifeModel - drop the word model.
+Why is nextState returning a result instead of being void? Not saying it's
+wrong, but just curious, may be the details in part 2 will explain why?
+
+What about the parts that will read users input? That's now in the diagram.
+
+May be rename file HW3_ClassDiagram_R1.vsdx to ClassDiagram.vsdx
+
+2.
+"Basically" better to avoid these kinds of noise words in writing (and
+speaking as well). 
+"pass the output to the presentation layer" We did not see this in the
+diagram. It appears that Program is the presentation layer, but may be
+not. The diagram may need some change to reflect this.
+
+"model which models the major logic..." avoid repeat of words like this, instead, may be
+"models the core logic..."
+
+"it just returns a next state from the last state upon request" OK, that
+makes sense, but should it return only the array or should it return 
+an entire GameOfLife (since the boardSize is kept there and that detail
+may be lost when nextState is returned). Or should that details (boardSize)
+be kept elsewhere?
+
+The last paragraph ("Not only easier...") hits the nail on the head. Really
+good explanation of reasons behind the design. Nice work here.
+
+3. I like the reasons presented here.
+
+------------------------------------------------------------------------------

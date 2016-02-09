@@ -1,0 +1,150 @@
+[Venkat 06/26/15 10:03 AM CEST]
+review: You're done.
+
+nice
+
+------------------------------------------------------------------------------
+[Venkat 06/25/15 06:05 AM CEST]
+review: remove my notes before asking for review
+
+In the GUI, entered a size and clicked on Generate Board. The GUI displays cells.
+Clicked on a cell. Oh wait, I did not mean to click that. How to remove that X?
+
+Reduce/remove space around cells and make the square instead of rectangle to give
+an illusion os cells instead of buttons.
+
+Any reason why my review notes are still there in GameBoard?
+
+GameOfLife:
+Remove commented out code.
+Remove my suggestions before asking for reviews.
+
+------------------------------------------------------------------------------
+[Venkat 06/24/15 07:36 AM CEST]
+review: nice progress, almost done, one more refactoring (may be).
+
+Nice work on the GUI. Run is intuitive and works well.
+
+GameBoard: Review my previous suggestions here.
+
+Reduce code, see suggestions in GameOfLife.
+
+------------------------------------------------------------------------------
+[Venkat 06/23/15 06:36 AM CEST]
+review: Refactor smelly GUI code.
+
+Place classes in the directory with the name of the package.
+Nice tests.
+
+Address and remove my suggestions from previous review.
+
+GameOfLife:
+Long methods. Modularize into small methods where each one focuses on
+a single task. Remove IDE vomits. Minimize duplicated catch block.
+Give good names for variables, they deserve better names than label1.
+
+Place ui code under the package assignment1.ui (and the folder assignment1/ui). Change the build accordingly to run the GUI.
+
+After setting the board size, what's the next step the user should take,
+not clear.
+
+------------------------------------------------------------------------------
+[Venkat 06/22/15 02:15 AM MDT]
+review: very nice progress
+
+don't put multiple independent asserts in one test.
+
+Move forward to the next step.
+
+------------------------------------------------------------------------------
+[Venkat 06/21/15 04:52 AM MDT]
+review: Nice work
+
+Refactor tests to make them easier to read, remove clutter. See suggestions.
+
+After those changes and suggested tests, proceed forward.
+
+------------------------------------------------------------------------------
+[Venkat 06/20/15 05:21 AM MDT]
+review: think of sample of data to test
+
+Create a nice sample of data for tests instead of testing all possibilities.
+As we read the tests, they should walk us through design decisions made
+along the way.
+
+After making changes based on suggestion, move on to the next set of tests.
+
+------------------------------------------------------------------------------
+[Venkat 06/19/15 18:09 PM MDT]
+review: tests must be expressive.
+
+Make the tests expressive, reading through a test we should know readily
+what to expect and why.
+
+Don't hard code values that will have to change in the code being tested.
+
+------------------------------------------------------------------------------
+[Venkat 06/19/15 09:22 AM CEST]
+review: good progress
+
+Remove all my suggestions in code before asking for the next review.
+Good progress. Continue with more tests.
+
+------------------------------------------------------------------------------
+[Venkat 06/18/15 16:12 PM CEST]
+review: one step at a time
+
+Stay with a function that you started to design, finish that and then
+move on to the next. One step at a time.
+
+------------------------------------------------------------------------------
+[Venkat 06/18/15 04:10 AM CEST]
+review: Keep code minimum to make tests pass
+
+GameBoardTest: Good work here, proceed to write more tests.
+
+GameBoard:
+Way too much code. For the tests that are there right now to pass,
+we don't need all this code. Only write minimum code to make the
+tests to pass.
+
+------------------------------------------------------------------------------
+[Venkat 06/17/15 04:13 AM CEST]
+review: reduce, keep tests very small, design lightweight.
+
+GameBoardTest:
+There should be no calls to println anywhere in the tests.
+
+Looking at the first test, we are doing quite a bit of work for this
+simple test to pass. The test is telling us something here, let's listen to it
+and reduce code. See suggestion in code.
+
+GameBoard:
+Way too much code. Delete all the code in this class. Start wit minimum code
+based on the suggested changes to tests.
+
+------------------------------------------------------------------------------
+[Venkat 06/16/15 03:32 AM CEST]
+review: take small steps, reduce noise
+
+Test: Give a good name for this class, like GameBoardTest.
+Remove all the IDE vomits and comments-these are noise.
+Change your IDE setting to remove the automatic generation of these.
+
+Remove comments, instead write readable code.
+
+The main should not be here, remove it.
+
+There should be no println in any tests.
+
+testInitializeBoard:
+This focuses on state. Start with a test to focus on a key behavior
+and let the state fall in place. See the note I added in the GameBard class.
+
+Remove state from the test method.
+
+I've created a build file to run the tests from the command prompt.
+Type gradle to run the tests and make sure all tests are passing before
+checking in any code change. You need to download Gradle from http://www.gradle.org and set the path to it before you can run gradle.
+
+------------------------------------------------------------------------------

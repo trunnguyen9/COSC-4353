@@ -1,0 +1,61 @@
+[Venkat 08/12/15 05:56 AM MDT]
+review: any thing more?
+
+2. Any other patterns?
+
+3. Any more principles?
+
+4. Any other patterns?
+
+See notes in text.
+
+------------------------------------------------------------------------------
+[Venkat 08/10/15 04:40 AM MDT]
+review: Look elsewhere for patterns
+
+2. Look elsewhere for this pattern - see notes in text.
+
+3. Good. Any more principles?
+
+4. Look elsewhere for this pattern - see notes in text.
+------------------------------------------------------------------------------
+[Venkat 08/09/15 05:41 AM CDT]
+review: More principles
+
+2. So, it's the readers unfamiliarity with the library of functions
+that makes it hard to read? If they are familiar with the library, then
+which one would be more readable?
+
+Good second pattern that's at the same spot as the first.
+
+For the third pattern, see notes in text.
+
+3.
+The first principle, not sure how that applies to this particular code being referred to. It's simply an abstraction, there is no resemblance of the
+said principle here.
+
+There are quite a few more principles being used, look closely.
+
+------------------------------------------------------------------------------
+[Venkat 08/08/15 06:32 AM CDT]
+review: good start
+
+1. good
+
+2. 
+Nice pattern.
+What is your pair's opinion? Why is this reduced readability, is it because
+it is totally messed up or is it because you are not familiar with it?
+
+There is another pattern that is used here along with that pattern, can you 
+see what that is.
+
+Also, any other pattern, elsewhere in the code/design?
+
+------------------------------------------------------------------------------
+[Venkat 08/07/15 08:29 AM MDT]
+review: No response found.
+
+Did not find any update in hw3.txt 
+
+------------------------------------------------------------------------------

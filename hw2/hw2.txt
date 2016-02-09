@@ -1,0 +1,34 @@
+HW2: Due 11:59PM June 15
+
+Create a strategic design for a modified version of the Game Of Life:
+<http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>
+
+At the start of the program, the user will provide the following details:
+- size of the square grid
+- the location of each live cell
+
+The program will display all the cells, live and dead. It will show animation of the birth and death of cells, until the user quits the program.
+
+Assume the grid is fixed size and the program has to show only the state of cells within the given bounds.
+
+1. Show diagrams to illustrate the major design ideas.
+Check in file(s) in the pdf, jpg, png,.. format. You may use a tool to create
+the diagram or hand draw and take a picture.
+
+2. Discuss the design ideas, the key parts, their responsibilities...
+
+The primary process flow of the program is like this: initially, the user will provide the size of the board, and the column and row indices of the live cells. The configuration data then will be used to initialize the initial board of the game. Next, the next state of the current board will be generated, and showed to the user. As long as the user does not quit the program, the program will keep showing the next board from the last board as animation.
+
+There are two main classes: GameOfLife and GameBoard. The reason that the responsibilities are distributed to these two classes is for easier development. The GameOfLife class will be responsible for reading the configuration, setting up the initial board, and displaying the animation of the game. The GameOfLife class does not need to know the rules of the game. On the other hand, the GameBoard class will be responsible for modeling the major logic of the game. The GameBoard class does not have any concerns with the presentation of the board.
+
+In the GameBoard class, the board will be represented by a 2D-array of integers. A cell is represented by an element in the matrix. If an elemement has value 1, it represents a live cell. If an element has value 0, it represents a dead cell.
+
+Not only easier for development, separating the classes as above will make it easier to re-use the game model later as well. For example, if later on it is needed to change the User Interface from stand-alone desktop application to a Web-based application, the GameBoard class can be re-used easily because its logic is independent of the presentation logic. Only a new controller will be needed to process the user input and pass the output to the Web-based presentation layer of the application. 
+
+3. What language do you plan to use for this program? What libraries do you plan to use?
+
+We plan to use Java as a programming language for this program. The reason we choose Java because Java provides high portability. A program written in Java can be run on any platform as long as a JVM is installed on that platform.
+
+The library javax.swing will be used to generate the user interface. The reason we choose javax.swing because it provides a wealth of lightweight GUI components. Also, according to Oracle’s document, the presentation of the components is consistent across all platforms. 
+
+Total [10]: 10
